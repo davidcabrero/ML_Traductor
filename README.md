@@ -6,7 +6,11 @@ Este proyecto es un modelo de Machine Learning entrenado con 50,000 datos para t
 
 ## 🚀 Instalación
 
-Para comenzar, instala las librerías necesarias ejecutando:
+Para comenzar, clona el repositorio e instala las librerías necesarias ejecutando:
+
+```bash
+git clone https://github.com/davidCabrero/ML_Traductor.git
+```
 
 ```bash
 pip install torch transformers pandas datasets
@@ -16,7 +20,7 @@ pip install torch transformers pandas datasets
 
 ## 📂 Descarga de Archivos Necesarios
 
-Antes de entrenar o probar el modelo, descarga y descomprime los siguientes archivos desde Google Drive:
+Antes de probar el modelo, descarga y descomprime los siguientes archivos desde Google Drive:
 
 1️⃣ **`archivos_trained.zip`** → Descomprimir en `trained_model/`
 
@@ -30,7 +34,7 @@ Antes de entrenar o probar el modelo, descarga y descomprime los siguientes arch
 
 ## 🎯 Entrenar el Modelo
 
-Para entrenar el modelo con más datos, ejecuta:
+Para entrenar el modelo con más datos diferentes, ejecuta:
 
 ```bash
 python entrenarModelo.py
